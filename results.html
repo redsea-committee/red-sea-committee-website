@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -97,7 +98,7 @@
             background: white;
             padding: 25px;
             border-radius: 12px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
             border-right: 5px solid #087f8c;
         }
 
@@ -133,6 +134,8 @@
             border-radius: 7px;
             font-size: 15px;
             display: inline-block;
+            text-align: center;
+            cursor: pointer;
         }
 
         .view-btn {
@@ -205,80 +208,87 @@
 
 <body>
 
-<!-- الهيدر -->
-<header>
-    <div class="header-content">
+    <!-- الهيدر -->
+    <header>
+        <div class="header-content">
 
-        <div class="site-logo">
-            <img src="logo.jpg" alt="شعار ولاية البحر الأحمر">
+            <div class="site-logo">
+                <img src="logo.jpg" alt="شعار ولاية البحر الأحمر">
+            </div>
+
+            <div class="title">
+                <h1>لجنة الاختيار للخدمة المدنية</h1>
+                <p>ولاية البحر الأحمر</p>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- القائمة -->
+    <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="announcements.html">إعلانات التقديم</a>
+        <a href="results.html">النتائج</a>
+        <a href="news.html">الأخبار والتنويهات</a>
+        <a href="about.html">عن اللجنة</a>
+        <a href="contact.html">اتصل بنا</a>
+    </nav>
+
+    <!-- المحتوى -->
+    <div class="container">
+
+        <h1 class="page-title">النتائج</h1>
+
+        <div class="result-card">
+
+            <h2>نتيجة وظائف وزارة التربية والتعليم</h2>
+
+            <div class="result-date">
+                نتيجة الاختيار والتعيين
+            </div>
+
+            <p>
+                تعلن لجنة الاختيار للخدمة المدنية بولاية البحر الأحمر
+                عن نتيجة وظائف وزارة التربية والتعليم.
+            </p>
+
+            <!-- أزرار النتائج -->
+            <div class="buttons">
+
+                <!-- عرض النتيجة -->
+                <a href="./education-results.pdf"
+                   target="_blank"
+                   rel="noopener"
+                   class="view-btn">
+                    👁️ عرض النتيجة
+                </a>
+
+                <!-- تحميل النتيجة -->
+                <a href="./education-results.pdf"
+                   download="education-results.pdf"
+                   class="download-btn">
+                    ⬇️ تحميل النتيجة
+                </a>
+
+            </div>
+
         </div>
 
-        <div class="title">
-            <h1>لجنة الاختيار للخدمة المدنية</h1>
-            <p>ولاية البحر الأحمر</p>
+        <!-- التنبيه -->
+        <div class="notice">
+            <strong>تنبيه:</strong>
+            يرجى متابعة الموقع للاطلاع على النتائج والإعلانات
+            والتنويهات الرسمية الجديدة.
         </div>
 
     </div>
-</header>
 
-<!-- القائمة -->
-<nav>
-    <a href="index.html">الرئيسية</a>
-    <a href="announcements.html">إعلانات التقديم</a>
-    <a href="results.html">النتائج</a>
-    <a href="news.html">الأخبار والتنويهات</a>
-    <a href="about.html">عن اللجنة</a>
-    <a href="contact.html">اتصل بنا</a>
-</nav>
-
-<!-- المحتوى -->
-<div class="container">
-
-    <h1 class="page-title">النتائج</h1>
-
-    <div class="result-card">
-
-        <h2>نتيجة وظائف وزارة التربية والتعليم</h2>
-
-        <div class="result-date">
-            نتيجة الاختيار والتعيين
-        </div>
-
-        <p>
-            تعلن لجنة الاختيار للخدمة المدنية بولاية البحر الأحمر
-            عن نتيجة وظائف وزارة التربية والتعليم.
-        </p>
-
-        <div class="buttons">
-
-            <a href="education-results.pdf"
-               target="_blank"
-               class="view-btn">
-                👁️ عرض النتيجة
-            
-            <a href="./education-results.pdf"
-   onclick="window.open(this.href, '_blank'); return false;"
-   class="download-btn">
-    ⬇️ تحميل النتيجة
-</a>
-
-        </div>
-
-    </div>
-
-    <div class="notice">
-        <strong>تنبيه:</strong>
-        يرجى متابعة الموقع للاطلاع على النتائج والإعلانات
-        والتنويهات الرسمية الجديدة.
-    </div>
-
-</div>
-
-<!-- الفوتر -->
-<footer>
-    <p>لجنة الاختيار للخدمة المدنية - ولاية البحر الأحمر</p>
-    <p>جميع الحقوق محفوظة © 2026</p>
-</footer>
+    <!-- الفوتر -->
+    <footer>
+        <p>لجنة الاختيار للخدمة المدنية - ولاية البحر الأحمر</p>
+        <p>جميع الحقوق محفوظة © 2026</p>
+    </footer>
 
 </body>
+
 </html>
