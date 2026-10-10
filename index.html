@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>لجنة الاختيار للخدمة المدنية - ولاية البحر الأحمر</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            background: #f4f7f8;
+            color: #222;
+        }
+
+        /* رأس الموقع */
+
+        header {
+            background: #073b4c;
+            color: white;
+            padding: 18px 15px;
+        }
+
+        .header-content {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+    width: 55px;
+    height: 55px;
+    background: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+
+        }
+
+        .title h1 {
+            font-size: 20px;
+            margin-bottom: 4px;
+        }
+
+        .title p {
+            font-size: 14px;
+        }
+
+
+        /* القائمة */
+
+        nav {
+            background: #0b5268;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav li {
+            margin: 0;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 16px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            background: #087f8c;
+        }
+
+
+        /* الصفحة الرئيسية */
+
+        .welcome {
+            min-height: 65vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+
+            background:
+                linear-gradient(
+                    rgba(7,59,76,0.88),
+                    rgba(8,127,140,0.88)
+                );
+        }
+
+        .welcome-content {
+            color: white;
+            max-width: 800px;
+        }
+
+        .welcome-content h2 {
+            font-size: 32px;
+            margin-bottom: 18px;
+        }
+
+        .welcome-content h3 {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .welcome-content p {
+            font-size: 17px;
+            line-height: 2;
+        }
+
+
+        /* تنبيه */
+
+        .notice {
+            background: white;
+            max-width: 800px;
+            margin: -35px auto 35px;
+            position: relative;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+        }
+
+        .notice strong {
+            color: #c45a00;
+        }
+
+
+        /* الفوتر */
+
+        footer {
+            background: #073b4c;
+            color: white;
+            text-align: center;
+            padding: 22px 10px;
+        }
+
+        footer p {
+            font-size: 13px;
+            margin: 4px;
+        }
+
+
+        /* الهاتف */
+
+        @media (max-width: 600px) {
+
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .title h1 {
+                font-size: 18px;
+            }
+
+            nav a {
+                font-size: 13px;
+                padding: 11px 9px;
+            }
+
+            .welcome {
+                min-height: 60vh;
+            }
+
+            .welcome-content h2 {
+                font-size: 24px;
+            }
+
+            .welcome-content h3 {
+                font-size: 20px;
+            }
+
+            .welcome-content p {
+                font-size: 15px;
+            }
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+    <!-- رأس الموقع -->
+
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+    <img src="logo.jpg" alt="شعار ولاية البحر الأحمر">
+</div>
+
+            <div class="title">
+
+                <h1>
+                    لجنة الاختيار للخدمة المدنية
+                </h1>
+
+                <p>
+                    ولاية البحر الأحمر
+                </p>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- القائمة الرئيسية -->
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html">
+                    الرئيسية
+                </a>
+            </li>
+
+            <li>
+                <a href="announcements.html">
+                    إعلانات التقديم
+                </a>
+            </li>
+
+            <li>
+                <a href="results.html">
+                    النتائج
+                </a>
+            </li>
+
+            <li>
+                <a href="news.html">
+                    الأخبار والتنويهات
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html">
+                    عن اللجنة
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                    اتصل بنا
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <!-- الترحيب -->
+
+    <main>
+
+        <section class="welcome">
+
+            <div class="welcome-content">
+
+                <h2>
+                    مرحبًا بكم
+                </h2>
+
+                <h3>
+                    في الموقع الإلكتروني للجنة الاختيار للخدمة المدنية
+                </h3>
+
+                <p>
+                    ولاية البحر الأحمر
+                </p>
+
+                <p>
+                    البوابة الإلكترونية للإعلانات والنتائج
+                    والأخبار والتنويهات الرسمية للجنة.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- التنبيه -->
+
+        <div class="notice">
+
+            <p>
+                <strong>تنبيه مهم:</strong>
+                يتم التقديم للوظائف المعلنة حضوريًا
+                بمقر لجنة الاختيار للخدمة المدنية بولاية البحر الأحمر.
+            </p>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- أسفل الموقع -->
+
+    <footer>
+
+        <p>
+            © 2026 لجنة الاختيار للخدمة المدنية - ولاية البحر الأحمر
+        </p>
+
+        <p>
+            جميع الحقوق محفوظة
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>

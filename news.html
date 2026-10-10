@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>الأخبار والتنويهات - لجنة الاختيار للخدمة المدنية</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Tahoma, Arial, sans-serif;
+            background: #f5f7f8;
+            color: #333;
+        }
+
+        header {
+            background: #073b4c;
+            color: white;
+            padding: 15px;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .site-logo {
+            width: 50px;
+            height: 50px;
+            background: white;
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        .site-logo img {
+            width: 42px;
+            height: 42px;
+            object-fit: contain;
+        }
+
+        .title h1 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .title p {
+            margin: 5px 0 0;
+            font-size: 14px;
+        }
+
+        nav {
+            background: #0b5268;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 16px 12px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            background: #087f8c;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 15px;
+        }
+
+        .page-title {
+            text-align: center;
+            color: #073b4c;
+            margin-bottom: 25px;
+        }
+
+        .empty-box {
+            background: white;
+            border-radius: 12px;
+            padding: 35px 20px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            border-top: 5px solid #087f8c;
+        }
+
+        .empty-icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .empty-box h2 {
+            color: #073b4c;
+            font-size: 22px;
+        }
+
+        .empty-box p {
+            line-height: 2;
+            color: #555;
+        }
+
+        .notice {
+            background: #e8f4f5;
+            color: #073b4c;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 20px;
+            line-height: 1.9;
+        }
+
+        footer {
+            background: #073b4c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .title h1 {
+                font-size: 17px;
+            }
+
+            .title p {
+                font-size: 13px;
+            }
+
+            nav a {
+                padding: 13px 9px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+
+        <div class="site-logo">
+            <img src="logo.jpg" alt="شعار ولاية البحر الأحمر">
+        </div>
+
+        <div class="title">
+            <h1>لجنة الاختيار للخدمة المدنية</h1>
+            <p>ولاية البحر الأحمر</p>
+        </div>
+
+    </div>
+</header>
+
+<nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="announcements.html">إعلانات التقديم</a>
+    <a href="results.html">النتائج</a>
+    <a href="news.html">الأخبار والتنويهات</a>
+    <a href="about.html">عن اللجنة</a>
+    <a href="contact.html">اتصل بنا</a>
+</nav>
+
+<main class="container">
+
+    <h1 class="page-title">الأخبار والتنويهات</h1>
+
+    <div class="empty-box">
+
+        <div class="empty-icon">📰</div>
+
+        <h2>لا توجد أخبار أو تنويهات جديدة حاليًا</h2>
+
+        <p>
+            ستُنشر هنا الأخبار والتنويهات الرسمية الصادرة
+            عن لجنة الاختيار للخدمة المدنية بولاية البحر الأحمر.
+        </p>
+
+    </div>
+
+    <div class="notice">
+        <strong>تنويه:</strong>
+        يرجى متابعة الموقع للاطلاع على آخر الأخبار
+        والتحديثات الرسمية الخاصة باللجنة.
+    </div>
+
+</main>
+
+<footer>
+    <p>لجنة الاختيار للخدمة المدنية - ولاية البحر الأحمر</p>
+    <p>جميع الحقوق محفوظة © 2026</p>
+</footer>
+
+</body>
+</html>
